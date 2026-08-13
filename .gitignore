@@ -1,0 +1,34 @@
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Local AI / Python environment
+.knowledge/.venv/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temporary files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# Editor local state
+.vscode/settings.json
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
